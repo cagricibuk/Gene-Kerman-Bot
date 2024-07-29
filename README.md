@@ -14,11 +14,6 @@
 - **Interactive Mini-Games**: Provides fun scenarios with questions and multiple-choice answers.
 - **Random Outcomes**: Generates responses based on user choices and predefined outcomes.
 
-## Requirements
-- Python 3.8 or higher
-- discord.py library
-- python-dotenv library
-
 ## Installation
 
 ### Clone the Repository
