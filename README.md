@@ -1,7 +1,7 @@
 # GeneKermanBot
-(Gene_Kerman_portrait.01.png) 
+![GeneKermanIcon](Gene_Kerman_portrait.01.png) 
 
-**GeneKermanBot** is a Discord bot designed to track and manage playtime for Kerbal Space Program (KSP) players and provide interactive mini-games. This bot integrates with Discord’s API to monitor user activities and offer engaging game scenarios.![GeneKermanIcon]
+**GeneKermanBot** is a Discord bot designed to track and manage playtime for Kerbal Space Program (KSP) players and provide interactive mini-games. This bot integrates with Discord’s API to monitor user activities and offer engaging game scenarios.
 
 ## Features
 
