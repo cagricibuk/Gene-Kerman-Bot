@@ -52,7 +52,7 @@ py GeneKerman.py
 Feel free to submit issues or pull requests if you have suggestions or improvements.
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Contact
 For questions or support, please contact cubukcagri561@gmail.com.
