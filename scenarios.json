@@ -1,0 +1,643 @@
+{
+    "SpaceX_Elon_Musk": [
+      {
+        "question": "SpaceX'in yeni bir Mars misyonu sırasında, roket motorlarından biri arızalanıyor. Ne yapmalısınız?",
+        "options": {
+          "A": "Motoru kapatıp acil iniş yapın.",
+          "B": "Alternatif motor sistemini devreye sokun.",
+          "C": "Fırlatmayı iptal edip roketi geri döndürün.",
+          "D": "Sorunu geçici olarak çözmeye çalışın ve misyonu devam ettirin."
+        },
+        "results": {
+          "A": [
+            "Motor kapatıldı ve iniş başarılı oldu; misyon tamamlandı.",
+            "İniş başarısız oldu ve roket parçalandı.",
+            "Kaza sırasında ekip zarar gördü ama bazı bilimsel veriler kurtarıldı.",
+            "Motor arızası sonucu roket tüm görevini tamamladı, ama önemli veriler kayboldu."
+          ],
+          "B": [
+            "Alternatif sistem başarılı oldu; roket Mars'a ulaştı.",
+            "Alternatif sistem arızalı çıktı ve roket yörüngede kalamadı.",
+            "Alternatif sistemle iniş başarılı oldu, ancak önemli bileşenler kayboldu.",
+            "Alternatif sistem geçici olarak çalıştı ama tüm görev başarısız oldu."
+          ],
+          "C": [
+            "Güvenli dönüş sağlandı; misyon tekrar planlanabilir.",
+            "İptal işlemi sırasında roket hasar gördü ve bazı sistemler kayboldu.",
+            "İptal sonrası roketin yeniden kullanımı mümkün oldu ancak büyük zaman kaybı yaşandı.",
+            "İptal sonrası misyon tamamen başarısız oldu ve kaynaklar kaybedildi."
+          ],
+          "D": [
+            "Sorun geçici olarak çözülüp misyon tamamlandı.",
+            "Geçici çözüm yeterli olmadı ve roket yörüngeden saparak görev başarısız oldu.",
+            "Sorunun geçici çözümü sağlandı ama veriler eksik oldu.",
+            "Sorun geçici olarak çözüldü ama iniş sırasında ciddi hasar meydana geldi."
+          ]
+        }
+      },
+      {
+        "question": "SpaceX'in bir uydu fırlatması sırasında uydu arızası meydana geliyor. Ne yapmalısınız?",
+        "options": {
+          "A": "Uyduyu tekrar başlatın ve sorunları çözmeye çalışın.",
+          "B": "Acil durum sinyali gönderin ve yardım isteyin.",
+          "C": "Yeni bir uydu fırlatmayı planlayın.",
+          "D": "Sorunu geçici olarak çözmeye çalışın ve mevcut uyduyu kullanmaya devam edin."
+        },
+        "results": {
+          "A": [
+            "Uydu başarılı bir şekilde çalışmaya başladı ve görev tamamlandı.",
+            "Başlatma sırasında uydu arızalandı ve görev başarısız oldu.",
+            "Uydu çalışmaya başladı fakat bazı veri kaybı yaşandı.",
+            "Uydu tamamen çalışmaz hale geldi ve fırlatma başarısız oldu."
+          ],
+          "B": [
+            "Yardım geldi ve uydu sorunları çözülüp görev tamamlandı.",
+            "Yardım sürecinde sinyal kayboldu ve uydu görevini tamamlayamadı.",
+            "Yardım başarılı oldu fakat bazı ekipmanlar kayboldu.",
+            "Yardım süreci başarısız oldu ve uydu tamamen kullanılamaz hale geldi."
+          ],
+          "C": [
+            "Yeni uydu fırlatıldı ve görev başarılı oldu.",
+            "Yeni uydu fırlatması sırasında teknik sorunlar yaşandı.",
+            "Yeni uydu başarılı şekilde yerleştirildi ancak önceki veriler kayboldu.",
+            "Yeni uydu fırlatması başarısız oldu ve kaynak kaybına neden oldu."
+          ],
+          "D": [
+            "Geçici çözüm başarılı oldu ve uydu işlevini yerine getirdi.",
+            "Geçici çözüm yetersiz kaldı ve uydu görevini tamamlayamadı.",
+            "Uydu bazı fonksiyonlarını kaybetti fakat görev kısmen tamamlandı.",
+            "Geçici çözüm başarısız oldu ve uydu tamamen kullanılamaz hale geldi."
+          ]
+        }
+      },
+      {
+        "question": "SpaceX'in ilk misyonu sırasında, roketin telemetri sisteminde bir sorun oluşuyor. Ne yapmalısınız?",
+        "options": {
+          "A": "Telemetri sistemini manuel olarak kontrol edin.",
+          "B": "Yedek telemetri sistemini devreye sokun.",
+          "C": "Fırlatmayı iptal edin ve roketi geri getirin.",
+          "D": "Sorunu geçici olarak çözmeye çalışın ve misyonu devam ettirin."
+        },
+        "results": {
+          "A": [
+            "Telemetri sistemi manuel olarak kontrol edildi ve görev başarıyla tamamlandı.",
+            "Manuel kontrol sırasında sistem arızalandı ve görev başarısız oldu.",
+            "Telemetri sistemi çalıştı fakat bazı veriler kayboldu.",
+            "Manuel kontrol başarısız oldu ve sistem tamamen kullanılamaz hale geldi."
+          ],
+          "B": [
+            "Yedek sistem devreye alındı ve görev başarıyla tamamlandı.",
+            "Yedek sistem arızalandı ve görev başarısız oldu.",
+            "Yedek sistem çalıştı ama bazı veriler kayboldu.",
+            "Yedek sistem geçici olarak çalıştı ama görev başarısız oldu."
+          ],
+          "C": [
+            "Fırlatma iptal edildi ve roket güvenli bir şekilde geri döndü.",
+            "Fırlatma iptali sırasında roket hasar gördü.",
+            "İptal sonrası roket yeniden kullanılamaz hale geldi.",
+            "Fırlatma iptali sırasında önemli veriler kayboldu."
+          ],
+          "D": [
+            "Geçici çözüm sağlandı ve misyon tamamlandı.",
+            "Geçici çözüm yetersiz kaldı ve misyon başarısız oldu.",
+            "Geçici çözüm ile görev kısmen tamamlandı.",
+            "Geçici çözüm başarısız oldu ve sistem tamamen kullanılamaz hale geldi."
+          ]
+        }
+      }
+    ],
+    "Falcon_9": [
+      {
+        "question": "Falcon 9'un ilk aşamasının iniş sırasında bir sorun çıkıyor. Ne yapmalısınız?",
+        "options": {
+          "A": "İniş sistemlerini manuel olarak kontrol edin.",
+          "B": "Otomatik iniş sistemini kullanarak inişi tamamlayın.",
+          "C": "Motorları kapatıp güvenli bir iniş yapmayı deneyin.",
+          "D": "İniş sırasında tüm motorları devre dışı bırakın ve geçici bir çözüm uygulayın."
+        },
+        "results": {
+          "A": [
+            "İniş başarılı oldu; roket sorunsuz bir şekilde geri döndü.",
+            "Manuel kontrol sırasında roket hasar gördü ve iniş başarısız oldu.",
+            "İniş başarılı ancak bazı sistemler işlevsiz kaldı.",
+            "Manuel kontrol hatalı oldu ve roket tamamen tahrip oldu."
+          ],
+          "B": [
+            "Otomatik sistem başarılı oldu ve iniş güvenli bir şekilde gerçekleştirildi.",
+            "Otomatik sistem arızalandı ve roket iniş sırasında ciddi hasar gördü.",
+            "Otomatik sistem başarılı oldu ama bazı veriler kayboldu.",
+            "Otomatik sistem başarısız oldu ve roket iniş sırasında kayboldu."
+          ],
+          "C": [
+            "Motorların kapatılması başarılı bir inişe yol açtı.",
+            "Motorların kapatılması iniş sırasında roketin kontrolünü kaybetmesine neden oldu.",
+            "İniş başarılı ancak bazı önemli ekipman hasar gördü.",
+            "Motorları kapatmak roketin tamamen tahrip olmasına neden oldu."
+          ],
+          "D": [
+            "Geçici çözüm başarılı oldu ve roket sağlıklı bir iniş yaptı.",
+            "Geçici çözüm yetersiz kaldı ve roket iniş sırasında hasar gördü.",
+            "İniş başarılı ancak bazı sistemler işlevsiz kaldı.",
+            "Geçici çözüm başarısız oldu ve roket tamamen tahrip oldu."
+          ]
+        }
+      },
+      {
+        "question": "Falcon 9'un fırlatma sırasında bir yakıt sızıntısı meydana geldi. Ne yapmalısınız?",
+        "options": {
+          "A": "Yakıt sızıntısını kapatmaya çalışın ve fırlatmayı devam ettirin.",
+          "B": "Fırlatmayı iptal edin ve yakıtı güvenli bir şekilde boşaltın.",
+          "C": "Fırlatmayı erteleyin ve sızıntı için bir inceleme yapın.",
+          "D": "Sorunu geçici olarak çözün ve fırlatmayı yapmayı deneyin."
+        },
+        "results": {
+          "A": [
+            "Yakıt sızıntısı kapatıldı ve fırlatma başarıyla tamamlandı.",
+            "Yakıt sızıntısı kontrol edilemedi ve roket patladı.",
+            "Fırlatma başarılı oldu fakat bazı sistemler hasar gördü.",
+            "Yakıt sızıntısına rağmen fırlatma başarılı oldu, ancak büyük veri kaybı yaşandı."
+          ],
+          "B": [
+            "Fırlatma iptali başarılı oldu ve roket güvenli bir şekilde geri döndü.",
+            "Fırlatma iptali sırasında yakıt boşaltımı hatalı oldu ve bazı ekipmanlar kayboldu.",
+            "İptal sonrası roket yeniden kullanılamaz hale geldi.",
+            "Yakıt boşaltımı sırasında önemli veriler kayboldu."
+          ],
+          "C": [
+            "Fırlatma ertelendi ve sızıntı başarıyla düzeltildi.",
+            "Erteleme sırasında roket hasar gördü ve yeni bir fırlatma planı yapıldı.",
+            "Erteleme sonrası roket kullanılamaz hale geldi.",
+            "Sızıntı incelendi ancak yeni fırlatma başarılı olamadı."
+          ],
+          "D": [
+            "Geçici çözüm sağlandı ve fırlatma yapıldı.",
+            "Geçici çözüm yetersiz kaldı ve fırlatma başarısız oldu.",
+            "Geçici çözüm başarılı oldu ama bazı ekipmanlar hasar gördü.",
+            "Geçici çözüm başarısız oldu ve roket tamamen tahrip oldu."
+          ]
+        }
+      },
+      {
+        "question": "Falcon 9'un yörüngesine yerleştirildiği bir uydu ile iletişim kesildi. Ne yapmalısınız?",
+        "options": {
+          "A": "Uyduyu manuel olarak yeniden başlatmaya çalışın.",
+          "B": "Yedek iletişim sistemini devreye sokun.",
+          "C": "Uyduyu kontrol etmek için bir kurtarma misyonu başlatın.",
+          "D": "İletişim sorununu geçici olarak çözmeye çalışın ve uyduyu kullanmaya devam edin."
+        },
+        "results": {
+          "A": [
+            "Uydu yeniden başlatıldı ve iletişim sağlandı; görev başarıyla tamamlandı.",
+            "Manuel başlatma sırasında uydu tamamen çalışmaz hale geldi.",
+            "Uydu yeniden başlatıldı fakat bazı veriler kayboldu.",
+            "Manuel başlatma başarısız oldu ve uydu görevini tamamlayamadı."
+          ],
+          "B": [
+            "Yedek iletişim sistemi başarıyla devreye alındı ve görev tamamlandı.",
+            "Yedek sistem arızalandı ve iletişim sağlanamadı.",
+            "Yedek sistem çalıştı ama bazı veriler kayboldu.",
+            "Yedek iletişim sistemi başarısız oldu ve uydu kullanılamaz hale geldi."
+          ],
+          "C": [
+            "Kurtarma misyonu başarılı oldu ve uydu iletişim kurdu.",
+            "Kurtarma misyonu sırasında uydu hasar gördü.",
+            "Kurtarma misyonu başarılı oldu ama bazı veriler kayboldu.",
+            "Kurtarma misyonu başarısız oldu ve uydu kullanılamaz hale geldi."
+          ],
+          "D": [
+            "Geçici çözüm sağlandı ve uydu bazı görevleri tamamladı.",
+            "Geçici çözüm yetersiz kaldı ve uydu görevini tamamlayamadı.",
+            "Uydu kısmi veri sağladı ancak görev kısmen tamamlandı.",
+            "Geçici çözüm başarısız oldu ve uydu tamamen kullanılamaz hale geldi."
+          ]
+        }
+      }
+    ],
+    "NASA_Shuttle": [
+      {
+        "question": "NASA'nın bir Space Shuttle misyonu sırasında, iniş koltuğunda bir sorun oluşuyor. Ne yapmalısınız?",
+        "options": {
+          "A": "İniş koltuğunu manuel olarak kontrol edin.",
+          "B": "Otomatik iniş koltuğu sistemini devreye alın.",
+          "C": "Misyonu iptal edin ve acil iniş yapın.",
+          "D": "Sorunu geçici olarak çözmeye çalışın ve inişi devam ettirin."
+        },
+        "results": {
+          "A": [
+            "Manuel kontrol başarılı oldu ve iniş sorunsuz gerçekleşti.",
+            "Manuel kontrol sırasında koltuk arızalandı ve iniş başarısız oldu.",
+            "İniş başarılı oldu ama bazı sistemler işlevsiz kaldı.",
+            "Manuel kontrol başarısız oldu ve iniş sırasında koltuk tamamen tahrip oldu."
+          ],
+          "B": [
+            "Otomatik sistem başarılı oldu ve iniş güvenli bir şekilde gerçekleştirildi.",
+            "Otomatik sistem arızalandı ve iniş sırasında hasar oluştu.",
+            "Otomatik sistem başarılı oldu ancak bazı veriler kayboldu.",
+            "Otomatik sistem başarısız oldu ve iniş sırasında roket kayboldu."
+          ],
+          "C": [
+            "Misyon iptal edildi ve iniş güvenli bir şekilde tamamlandı.",
+            "İptal sırasında iniş koltuğunda hasar meydana geldi.",
+            "İptal sonrası iniş başarılı oldu fakat bazı bileşenler kayboldu.",
+            "Misyon iptali sırasında önemli veriler kayboldu."
+          ],
+          "D": [
+            "Geçici çözüm sağlandı ve iniş gerçekleştirildi.",
+            "Geçici çözüm yetersiz kaldı ve iniş başarısız oldu.",
+            "İniş başarılı fakat bazı sistemler hasar gördü.",
+            "Geçici çözüm başarısız oldu ve iniş sırasında tamamen tahrip oldu."
+          ]
+        }
+      },
+      {
+        "question": "Bir Space Shuttle misyonunda, bir bilimsel deneyin sonuçları yanlış görünüyor. Ne yapmalısınız?",
+        "options": {
+          "A": "Deneyleri manuel olarak tekrar yapın.",
+          "B": "Yedek deney sonuçlarını kontrol edin ve karşılaştırın.",
+          "C": "Misyonu iptal edin ve deneyleri güvenli bir şekilde saklayın.",
+          "D": "Deney sonuçlarını geçici olarak kabul edin ve görevi tamamlayın."
+        },
+        "results": {
+          "A": [
+            "Deneyler manuel olarak tekrar yapıldı ve sonuçlar doğru oldu.",
+            "Manuel tekrar sırasında deney tamamen bozuldu.",
+            "Deneyler başarılı oldu ama bazı veriler kayboldu.",
+            "Manuel tekrar başarısız oldu ve deney tamamen kullanılamaz hale geldi."
+          ],
+          "B": [
+            "Yedek sonuçlar doğrulandı ve görev başarıyla tamamlandı.",
+            "Yedek sonuçlar arızalı çıktı ve görev başarısız oldu.",
+            "Yedek sonuçlarla bazı veriler doğrulandı ancak önemli veriler kayboldu.",
+            "Yedek sonuçlar başarısız oldu ve deney kullanılamaz hale geldi."
+          ],
+          "C": [
+            "Misyon iptal edildi ve deney güvenli bir şekilde saklandı.",
+            "İptal sırasında bazı deney verileri kayboldu.",
+            "İptal sonrası deney kullanılmaz hale geldi.",
+            "İptal sonrası misyon tamamlanamadı ve kaynak kaybı yaşandı."
+          ],
+          "D": [
+            "Geçici sonuçlar kabul edildi ve görev tamamlandı.",
+            "Geçici sonuçlar yetersiz kaldı ve görev başarısız oldu.",
+            "Geçici sonuçlarla görev kısmen tamamlandı.",
+            "Geçici sonuçlar başarısız oldu ve deney kullanılamaz hale geldi."
+          ]
+        }
+      },
+      {
+        "question": "Bir Space Shuttle misyonunda, iniş sırasında bir acil durum sinyali alınıyor. Ne yapmalısınız?",
+        "options": {
+          "A": "Acil durum sinyalini kontrol edin ve durumu değerlendirip inişi tamamlayın.",
+          "B": "Yedek acil durum sistemlerini devreye alın ve inişi güvenli bir şekilde gerçekleştirin.",
+          "C": "İnişi iptal edin ve acil durum sinyali için yer kontrolü ile iletişime geçin.",
+          "D": "Geçici olarak sorunu çözmeye çalışın ve inişi yapmayı deneyin."
+        },
+        "results": {
+          "A": [
+            "Acil durum sinyali kontrol edildi ve iniş başarıyla tamamlandı.",
+            "Acil durum sırasında iniş sırasında roket hasar gördü.",
+            "İniş başarılı oldu ama bazı sistemler işlevsiz kaldı.",
+            "Acil durum sinyali kontrolü başarısız oldu ve roket tamamen tahrip oldu."
+          ],
+          "B": [
+            "Yedek sistemler devreye alındı ve iniş güvenli bir şekilde yapıldı.",
+            "Yedek sistemler arızalandı ve iniş sırasında roket hasar gördü.",
+            "Yedek sistemler başarılı oldu fakat bazı veriler kayboldu.",
+            "Yedek sistemler başarısız oldu ve roket tamamen kayboldu."
+          ],
+          "C": [
+            "İniş iptal edildi ve acil durum sinyali için yer kontrolü ile iletişim sağlandı.",
+            "İptal sırasında roket hasar gördü ve bazı ekipmanlar kayboldu.",
+            "İptal sonrası roket yeniden kullanılamaz hale geldi.",
+            "İptal sonrası veriler kayboldu ve görev başarısız oldu."
+          ],
+          "D": [
+            "Geçici çözüm sağlandı ve iniş gerçekleştirildi.",
+            "Geçici çözüm yetersiz kaldı ve iniş başarısız oldu.",
+            "İniş başarılı oldu ama bazı sistemler hasar gördü.",
+            "Geçici çözüm başarısız oldu ve iniş sırasında roket tamamen tahrip oldu."
+          ]
+        }
+      }
+    ],
+    "Kerbal_Space_Program": [
+      {
+        "question": "Kerbal Space Program'da yeni bir gezegene iniş yapıyorsunuz ancak iniş sırasında motorunuz arızalandı. Ne yapmalısınız?",
+        "options": {
+          "A": "Yedek motoru devreye sokun.",
+          "B": "Geri dönüp yeniden iniş yapmayı deneyin.",
+          "C": "İnişi manuel olarak kontrol edin.",
+          "D": "İnişi iptal edin ve uzayda kalmaya devam edin."
+        },
+        "results": {
+          "A": [
+            "Yedek motor başarıyla çalıştı ve iniş güvenli bir şekilde tamamlandı.",
+            "Yedek motor arızalandı ve iniş başarısız oldu.",
+            "Yedek motor çalıştı ama iniş sırasında bazı ekipmanlar kayboldu.",
+            "Yedek motor arızalandı ve roket tamamen kayboldu."
+          ],
+          "B": [
+            "Geri dönüş başarılı oldu ve iniş yeniden gerçekleştirildi.",
+            "Geri dönüş sırasında motor tamamen arızalandı ve iniş başarısız oldu.",
+            "Geri dönüş başarılı oldu ama iniş sırasında bazı veriler kayboldu.",
+            "Geri dönüş sırasında roket tamamen hasar gördü."
+          ],
+          "C": [
+            "Manuel iniş başarılı oldu ve görev tamamlandı.",
+            "Manuel iniş sırasında motor tamamen arızalandı ve iniş başarısız oldu.",
+            "Manuel iniş başarılı oldu ama bazı sistemler işlevsiz kaldı.",
+            "Manuel iniş başarısız oldu ve roket kayboldu."
+          ],
+          "D": [
+            "İniş iptal edildi ve uzayda kalındı.",
+            "İptal sırasında roket hasar gördü ve bazı ekipmanlar kayboldu.",
+            "İptal sonrası roket yeniden kullanılamaz hale geldi.",
+            "İptal sonrası veriler kayboldu ve görev başarısız oldu."
+          ]
+        }
+      },
+      {
+        "question": "Kerbal Space Program'da bir uzay aracı yörüngede ani bir hız artışı yaşadı. Ne yapmalısınız?",
+        "options": {
+          "A": "Hız artışını dengelemek için itici motorları kullanın.",
+          "B": "Yörüngeyi yeniden düzenleyin ve hız kontrol sistemini devreye alın.",
+          "C": "Geri dönüş yapın ve sorunu yer kontrolü ile çözün.",
+          "D": "Hız artışını geçici olarak göz ardı edin ve görevi tamamlamaya devam edin."
+        },
+        "results": {
+          "A": [
+            "Hız dengeleme başarılı oldu ve görev tamamlandı.",
+            "Hız dengeleme sırasında itici motorlar arızalandı.",
+            "Hız dengeleme başarılı oldu ama bazı veriler kayboldu.",
+            "Hız dengeleme başarısız oldu ve araç tamamen kayboldu."
+          ],
+          "B": [
+            "Yörünge düzenlemesi başarılı oldu ve görev tamamlandı.",
+            "Yörünge düzenlemesi sırasında bazı veriler kayboldu.",
+            "Yörünge düzenlemesi başarısız oldu ve araç hasar gördü.",
+            "Yörünge düzenlemesi başarısız oldu ve araç tamamen tahrip oldu."
+          ],
+          "C": [
+            "Geri dönüş başarılı oldu ve sorun çözüldü.",
+            "Geri dönüş sırasında araç tamamen arızalandı.",
+            "Geri dönüş başarılı oldu ama bazı veriler kayboldu.",
+            "Geri dönüş sırasında araç hasar gördü ve görev tamamlanamadı."
+          ],
+          "D": [
+            "Geçici çözüm sağlandı ve görev tamamlandı.",
+            "Geçici çözüm yetersiz kaldı ve görev başarısız oldu.",
+            "Görev tamamlandı ancak bazı sistemler işlevsiz kaldı.",
+            "Geçici çözüm başarısız oldu ve araç tamamen kayboldu."
+          ]
+        }
+      },
+      {
+        "question": "Kerbal Space Program'da bir uzay aracında yakıt bitiyor. Ne yapmalısınız?",
+        "options": {
+          "A": "Yedek yakıt tankını devreye alın.",
+          "B": "Yakıt tasarrufu için uçuş yolunu yeniden planlayın.",
+          "C": "Geri dönüş yapın ve yakıt ikmali için yer kontrolü ile iletişime geçin.",
+          "D": "Yakıt bitimini geçici olarak göz ardı edin ve görevi tamamlamaya devam edin."
+        },
+        "results": {
+          "A": [
+            "Yedek yakıt tankı başarıyla devreye alındı ve görev tamamlandı.",
+            "Yedek yakıt tankı arızalandı ve görev başarısız oldu.",
+            "Yedek yakıt tankı çalıştı ama bazı veriler kayboldu.",
+            "Yedek yakıt tankı başarısız oldu ve araç tamamen kayboldu."
+          ],
+          "B": [
+            "Yeniden planlama başarılı oldu ve görev tamamlandı.",
+            "Planlama sırasında bazı veriler kayboldu.",
+            "Yeniden planlama başarısız oldu ve araç hasar gördü.",
+            "Yeniden planlama başarısız oldu ve araç tamamen tahrip oldu."
+          ],
+          "C": [
+            "Geri dönüş başarılı oldu ve yakıt ikmali yapıldı.",
+            "Geri dönüş sırasında araç tamamen arızalandı.",
+            "Geri dönüş başarılı oldu ama bazı veriler kayboldu.",
+            "Geri dönüş sırasında araç hasar gördü ve görev tamamlanamadı."
+          ],
+          "D": [
+            "Geçici çözüm sağlandı ve görev tamamlandı.",
+            "Geçici çözüm yetersiz kaldı ve görev başarısız oldu.",
+            "Görev tamamlandı fakat bazı sistemler işlevsiz kaldı.",
+            "Geçici çözüm başarısız oldu ve araç tamamen kayboldu."
+          ]
+        }
+      },
+      {
+        "question": "Kerbal Space Program'da bir uzay aracı planlanan rotayı terk etti. Ne yapmalısınız?",
+        "options": {
+          "A": "Rotayı düzeltmek için yakıt ve itici motorları kullanın.",
+          "B": "Yörüngenizi yeniden hesaplayın ve düzeltici manevra yapın.",
+          "C": "Geri dönüş yapın ve planı yer kontrolü ile yeniden değerlendirin.",
+          "D": "Rotayı geçici olarak göz ardı edin ve görevi tamamlamaya devam edin."
+        },
+        "results": {
+          "A": [
+            "Rotayı düzeltme başarılı oldu ve görev tamamlandı.",
+            "Düzeltme sırasında itici motorlar arızalandı ve görev başarısız oldu.",
+            "Rotayı düzeltme başarılı oldu ama bazı veriler kayboldu.",
+            "Düzeltme başarısız oldu ve araç tamamen kayboldu."
+          ],
+          "B": [
+            "Yörünge düzeltmesi başarılı oldu ve görev tamamlandı.",
+            "Yörünge düzeltmesi sırasında bazı veriler kayboldu.",
+            "Yörünge düzeltmesi başarısız oldu ve araç hasar gördü.",
+            "Yörünge düzeltmesi başarısız oldu ve araç tamamen tahrip oldu."
+          ],
+          "C": [
+            "Geri dönüş başarılı oldu ve plan yeniden değerlendirildi.",
+            "Geri dönüş sırasında araç tamamen arızalandı.",
+            "Geri dönüş başarılı oldu ama bazı veriler kayboldu.",
+            "Geri dönüş sırasında araç hasar gördü ve görev tamamlanamadı."
+          ],
+          "D": [
+            "Geçici çözüm sağlandı ve görev tamamlandı.",
+            "Geçici çözüm yetersiz kaldı ve görev başarısız oldu.",
+            "Görev tamamlandı fakat bazı sistemler işlevsiz kaldı.",
+            "Geçici çözüm başarısız oldu ve araç tamamen kayboldu."
+          ]
+        }
+      },
+      {
+        "question": "Kerbal Space Program'da bir uzay aracı, gezegen yüzeyine iniş yaptıktan sonra iletişim sorunları yaşıyor. Ne yapmalısınız?",
+        "options": {
+          "A": "İletişim sistemlerini manuel olarak kontrol edin ve yeniden başlatın.",
+          "B": "Yedek iletişim sistemini devreye alın.",
+          "C": "Geri dönüş yapın ve iletişim sorununu yer kontrolü ile çözün.",
+          "D": "İletişim sorununu geçici olarak çözmeye çalışın ve görevi tamamlayın."
+        },
+        "results": {
+          "A": [
+            "Manuel kontrol başarılı oldu ve iletişim sağlandı.",
+            "Manuel kontrol sırasında iletişim tamamen kesildi.",
+            "Manuel kontrol başarılı oldu ama bazı veriler kayboldu.",
+            "Manuel kontrol başarısız oldu ve iletişim sorunları çözülemedi."
+          ],
+          "B": [
+            "Yedek iletişim sistemi başarılı oldu ve görev tamamlandı.",
+            "Yedek iletişim sistemi arızalandı ve görev başarısız oldu.",
+            "Yedek iletişim sistemi çalıştı ama bazı veriler kayboldu.",
+            "Yedek iletişim sistemi başarısız oldu ve araç tamamen kayboldu."
+          ],
+          "C": [
+            "Geri dönüş başarılı oldu ve iletişim sorunu çözüldü.",
+            "Geri dönüş sırasında araç tamamen arızalandı.",
+            "Geri dönüş başarılı oldu ama bazı veriler kayboldu.",
+            "Geri dönüş sırasında araç hasar gördü ve görev tamamlanamadı."
+          ],
+          "D": [
+            "Geçici çözüm sağlandı ve görev tamamlandı.",
+            "Geçici çözüm yetersiz kaldı ve görev başarısız oldu.",
+            "Görev tamamlandı fakat bazı sistemler işlevsiz kaldı.",
+            "Geçici çözüm başarısız oldu ve araç tamamen kayboldu."
+          ]
+        }
+      }
+    ],
+    "Space_Adventure": [
+      {
+        "question": "Bir keşif gemisi, uzayda keşif yaparken beklenmedik bir şekilde bir kara deliğe yaklaşır. Ne yapmalısınız?",
+        "options": {
+          "A": "Kara deliğin çekim gücünden kurtulmak için hızla hareket edin.",
+          "B": "Kara deliğin etrafında dönebilmek için yörüngesel bir manevra yapın.",
+          "C": "Kara deliğe yaklaşırken bilimsel veriler toplamaya devam edin.",
+          "D": "Kara deliğin çekim gücüne teslim olup kaçış planını askıya alın."
+        },
+        "results": {
+          "A": [
+            "Hızlı hareket ile kara deliğin çekim gücünden kurtulmayı başardınız ve görev tamamlandı.",
+            "Hızlı hareket sırasında bazı sistemler arızalandı ve görev başarısız oldu.",
+            "Hızlı hareket başarılı oldu ama bazı veriler kayboldu.",
+            "Hızlı hareket başarısız oldu ve gemi kara deliğe çekildi."
+          ],
+          "B": [
+            "Yörüngesel manevra başarılı oldu ve görev tamamlandı.",
+            "Yörüngesel manevra sırasında bazı sistemler arızalandı.",
+            "Yörüngesel manevra başarılı oldu ama bazı veriler kayboldu.",
+            "Yörüngesel manevra başarısız oldu ve gemi kara deliğe çekildi."
+          ],
+          "C": [
+            "Bilimsel veri toplama başarılı oldu ama kara deliğin çekim gücünden kurtulamadınız.",
+            "Bilimsel veri toplama sırasında bazı sistemler arızalandı.",
+            "Bilimsel veri toplama başarılı oldu ama bazı veriler kayboldu.",
+            "Bilimsel veri toplama başarısız oldu ve gemi kara deliğe çekildi."
+          ],
+          "D": [
+            "Kara deliğin çekim gücüne teslim oldunuz ve gemi kayboldu.",
+            "Çekim gücüne teslim olduktan sonra bazı sistemler arızalandı.",
+            "Çekim gücüne teslim olduktan sonra bazı veriler kayboldu.",
+            "Çekim gücüne teslim olduktan sonra gemi tamamen yok oldu."
+          ]
+        }
+      },
+      {
+        "question": "Bir uzaylı uygarlığı ile iletişim kurduktan sonra, bir anda bilinmeyen bir tehlike ortaya çıkıyor. Ne yapmalısınız?",
+        "options": {
+          "A": "Tehlikeyi analiz etmek için derinlemesine bilimsel araştırma yapın.",
+          "B": "Uzaylı uygarlığı ile iletişime geçerek yardım isteyin.",
+          "C": "Tehlikeye karşı savunma sistemlerini devreye alın.",
+          "D": "Tehlikeyi geçici olarak göz ardı edin ve görevlerinize devam edin."
+        },
+        "results": {
+          "A": [
+            "Bilimsel araştırma başarılı oldu ve tehlike tespit edildi.",
+            "Bilimsel araştırma sırasında bazı sistemler arızalandı.",
+            "Bilimsel araştırma başarılı oldu ama bazı veriler kayboldu.",
+            "Bilimsel araştırma başarısız oldu ve tehlike arttı."
+          ],
+          "B": [
+            "Uzaylı uygarlığı yardımı başarılı oldu ve tehlike çözüldü.",
+            "Uzaylı uygarlığı yardımı sırasında bazı sistemler arızalandı.",
+            "Uzaylı uygarlığı yardımı başarılı oldu ama bazı veriler kayboldu.",
+            "Uzaylı uygarlığı yardımı başarısız oldu ve tehlike arttı."
+          ],
+          "C": [
+            "Savunma sistemleri başarılı oldu ve tehlike bertaraf edildi.",
+            "Savunma sistemleri sırasında bazı sistemler arızalandı.",
+            "Savunma sistemleri başarılı oldu ama bazı veriler kayboldu.",
+            "Savunma sistemleri başarısız oldu ve tehlike arttı."
+          ],
+          "D": [
+            "Geçici çözüm sağlandı ve görev tamamlandı.",
+            "Geçici çözüm yetersiz kaldı ve tehlike arttı.",
+            "Görev tamamlandı fakat bazı sistemler işlevsiz kaldı.",
+            "Geçici çözüm başarısız oldu ve tehlike büyüdü."
+          ]
+        }
+      },
+      {
+        "question": "Bir uzay gemisi, bir asteroid kuşağından geçerken bir asteroide çarpma riskiyle karşılaşıyor. Ne yapmalısınız?",
+        "options": {
+          "A": "Çarpma riskini azaltmak için hızınızı azaltın ve rotayı değiştirin.",
+          "B": "Kullanılabilir koruyucu sistemleri aktif hale getirin.",
+          "C": "Çarpma riskine rağmen rotayı değiştirmeden devam edin.",
+          "D": "Koruyucu sistemleri ve hız kontrolünü geçici olarak göz ardı edin ve görevlerinize devam edin."
+        },
+        "results": {
+          "A": [
+            "Hız azaltma ve rota değişikliği başarılı oldu ve çarpma önlendi.",
+            "Hız azaltma ve rota değişikliği sırasında bazı sistemler arızalandı.",
+            "Hız azaltma ve rota değişikliği başarılı oldu ama bazı veriler kayboldu.",
+            "Hız azaltma ve rota değişikliği başarısız oldu ve çarpma gerçekleşti."
+          ],
+          "B": [
+            "Koruyucu sistemler başarılı oldu ve çarpma önlendi.",
+            "Koruyucu sistemler sırasında bazı sistemler arızalandı.",
+            "Koruyucu sistemler başarılı oldu ama bazı veriler kayboldu.",
+            "Koruyucu sistemler başarısız oldu ve çarpma gerçekleşti."
+          ],
+          "C": [
+            "Rotayı değiştirmeden devam etme başarılı oldu ve görev tamamlandı.",
+            "Rotayı değiştirmeden devam etme sırasında bazı sistemler arızalandı.",
+            "Rotayı değiştirmeden devam etme başarılı oldu ama bazı veriler kayboldu.",
+            "Rotayı değiştirmeden devam etme başarısız oldu ve çarpma gerçekleşti."
+          ],
+          "D": [
+            "Geçici çözüm sağlandı ve görev tamamlandı.",
+            "Geçici çözüm yetersiz kaldı ve çarpma gerçekleşti.",
+            "Görev tamamlandı fakat bazı sistemler işlevsiz kaldı.",
+            "Geçici çözüm başarısız oldu ve çarpma gerçekleşti."
+          ]
+        }
+      },
+      {
+        "question": "Bir uzay gemisi, bilinmeyen bir gezegende acil iniş yaparken atmosfer koşulları kötüleşiyor. Ne yapmalısınız?",
+        "options": {
+          "A": "İnişi kontrol etmek için acil iniş protokollerini uygulayın.",
+          "B": "Atmosfer koşullarını analiz ederek iniş stratejisini değiştirin.",
+          "C": "İnişi gerçekleştirin ve atmosfer koşullarının etkilerini minimumda tutmaya çalışın.",
+          "D": "Atmosfer koşullarını geçici olarak göz ardı edin ve inişi yapmaya devam edin."
+        },
+        "results": {
+          "A": [
+            "Acil iniş protokolleri başarılı oldu ve iniş güvenli bir şekilde tamamlandı.",
+            "Acil iniş protokolleri sırasında bazı sistemler arızalandı.",
+            "Acil iniş protokolleri başarılı oldu ama bazı veriler kayboldu.",
+            "Acil iniş protokolleri başarısız oldu ve iniş sırasında gemi tamamen hasar gördü."
+          ],
+          "B": [
+            "Atmosfer koşullarını analiz etme başarılı oldu ve iniş güvenli bir şekilde tamamlandı.",
+            "Analiz sırasında bazı sistemler arızalandı.",
+            "Atmosfer koşullarını analiz etme başarılı oldu ama bazı veriler kayboldu.",
+            "Atmosfer koşullarını analiz etme başarısız oldu ve iniş sırasında gemi tamamen hasar gördü."
+          ],
+          "C": [
+            "İniş başarılı oldu ve atmosfer koşullarının etkileri minimumda tutuldu.",
+            "İniş sırasında bazı sistemler arızalandı.",
+            "İniş başarılı oldu ama bazı veriler kayboldu.",
+            "İniş başarısız oldu ve gemi tamamen hasar gördü."
+          ],
+          "D": [
+            "Geçici çözüm sağlandı ve iniş tamamlandı.",
+            "Geçici çözüm yetersiz kaldı ve iniş sırasında gemi tamamen hasar gördü.",
+            "Görev tamamlandı fakat bazı sistemler işlevsiz kaldı.",
+            "Geçici çözüm başarısız oldu ve iniş sırasında gemi tamamen yok oldu."
+          ]
+        }
+      }
+    ]
+  }
+  
