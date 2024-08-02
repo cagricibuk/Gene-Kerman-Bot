@@ -1,19 +1,34 @@
 import discord
 from discord.ext import commands, tasks
+import random
+import asyncio
 import json
 from datetime import datetime, timedelta
 from dotenv import load_dotenv
 import os
 
 load_dotenv()
+
 TOKEN = os.getenv('DISCORD_BOT_TOKEN')
+
+# Intents ayarları
 intents = discord.Intents.default()
 intents.members = True
 intents.presences = True
 intents.typing = True
-intents.messages = True  # Ensure this is set to True to receive message events
+intents.messages = True
+intents.message_content = True
 
+# Bot komutları için bir prefix belirleyin
 bot = commands.Bot(command_prefix='!', intents=intents)
+
+# Senaryoları yükle
+def load_scenarios():
+    with open('scenarios.json', 'r', encoding='utf-8') as file:
+        data = json.load(file)
+    return data
+
+scenarios = load_scenarios()
 
 # JSON dosyasını yükle veya boş dictionary döndür
 def load_play_times():
@@ -141,10 +156,10 @@ async def on_presence_update(before, after):
     play_times = load_play_times()
 
     # Kullanıcı KSP oynuyor mu diye kontrol et
-    playing_ksp = lambda presence: presence.activity and presence.activity.name == "Kerbal Space Program"
+    playing_ksp = lambda activities: any(activity.name == "Kerbal Space Program" for activity in activities)
 
     # Kullanıcı KSP oynamaya başladı
-    if not playing_ksp(before) and playing_ksp(after):
+    if not playing_ksp(before.activities) and playing_ksp(after.activities):
         start_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
         member_id_str = str(after.id)
         if member_id_str not in play_times:
@@ -155,7 +170,7 @@ async def on_presence_update(before, after):
         print(f"{after.name} (ID: {after.id}) oynamaya başladı ve kayıt edildi.")
 
     # Kullanıcı KSP oynamayı bıraktı
-    elif playing_ksp(before) and not playing_ksp(after):
+    elif playing_ksp(before.activities) and not playing_ksp(after.activities):
         print(f"{before.id} Oynamayı bıraktı")
         member_id_str = str(before.id)
         if member_id_str in play_times:
@@ -184,4 +199,33 @@ async def send_log(guild, message):
             await channel.send(message)
             break    
 
+#minigame command
+@bot.command(name='minigame')
+async def mini_game(ctx):
+    # Kategorileri seçmek için
+    category = random.choice(list(scenarios.keys()))
+    scenario = random.choice(scenarios[category])
+
+    question = scenario["question"]
+    options = scenario["options"]
+
+    options_text = "\n".join([f"{i+1}. {option}" for i, option in enumerate(options)])
+
+    await ctx.send(f"Soru: {question}\nSeçenekler:\n{options_text}\nLütfen cevabınızı numara ile belirtin (örneğin: 1, 2, 3, 4)")
+
+    def check(m):
+        return m.author == ctx.author and m.channel == ctx.channel and m.content.isdigit() and 1 <= int(m.content) <= len(options)
+
+    try:
+        answer = await bot.wait_for('message', check=check, timeout=30.0)
+    except asyncio.TimeoutError:
+        await ctx.send("Cevap vermek için çok geç kaldınız.")
+        return
+
+    chosen_option = options[int(answer.content) - 1]
+    outcome = scenario["outcomes"][chosen_option]
+
+    await ctx.send(f"{ctx.author.mention}, {chosen_option} seçeneğini seçtiniz. Sonuç: {outcome}")
+
+# Botu çalıştır
 bot.run(TOKEN)
